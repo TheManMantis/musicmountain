@@ -22,35 +22,13 @@ header{
   display: block;
   padding: 35px 0px;
 }
-nav{
-  margin-top: 35px;
-  display: block;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(27,85,119,.93);
-}
-nav li {
-  float: left;
-}
-nav li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav a {
-  display: block;
-}
 section{
   background-color: rgba(250, 253, 255, 0.93);
   padding: 0;
   height: 1850px;
+}
+.redeem-section{
+  height: 1350px;
 }
 h1 {
   font-family: Anton;
@@ -91,9 +69,9 @@ p {
   margin-right: 30px;
 }
 .partners{
-  margin: 35px 20px 0 20px;
+  margin: 0 20px;
   display: block;
-  padding: 20px;
+  padding: 0 20px;
 }
 .logo-set{
   display: flex;
@@ -238,4 +216,29 @@ button.dropbtn {
 }
 .dropdown:hover .dropbtn {
   background-color: #0496C6;;
+}
+.choose-reward{
+  margin: 0 20px;
+  width: 450px;
+  padding: 15px;
+  display: inline-block;
+}
+.what-is-this{
+  padding-left: 3em;
+  font-size: 14px;
+  font-style: italic;
+  color: #06B9F1;
+}
+.rewards-header{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.choose-below{
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 0;
+  margin-top: 0;
+}
+.redeem-one-time{
+  font-size: 14px;
 }
